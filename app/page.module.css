@@ -1,7 +1,8 @@
 /* CSS Modules for additional styling if needed */
 .hero {
+  background-color: #222; /* fallback color */
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/placeholder.svg?height=800&width=1200");
+    url('/hero-background.jpg');
   background-size: cover;
   background-position: center;
 }
